@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lobster/v23/neILzCirqoswsqX9zoKmMw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,8 +15,48 @@
   }
 
 body {
-    background-color: black;
     font-family: verdana, sans-serif;
-    color: white;
     text-align: center;
+    background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 40px 55px;
+  color: white;
+  text-align: left;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-row-gap: 50px;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: solid black 2px; 
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+/****** Font Section *********/
+
+#fonts p {
+  font-size: 20px;
+}
+
+#lobster {
+  font-family: lobster;
 }
