@@ -97,6 +97,11 @@ h2 {
   text-align: left;
 }
 
+p {
+  margin: auto;
+  font-size: 20px;
+}
+
 .grid {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -116,11 +121,6 @@ h2 {
 }
 
 /****** Font Section *********/
-
-#fonts p {
-  font-size: 20px;
-  text-align: center;
-}
 
 #lobster {
   font-family: lobster;
@@ -152,4 +152,18 @@ h2 {
 
 #gloria-hallelujah {
   font-family: "gloria hallelujah"
+}
+
+/*********Colour Section********/
+
+#dark-orange {
+  background-color: #FB8B24;
+}
+
+#dogwood-rose {
+  background-color: #D90368;
+}
+
+#maximum-blue {
+  background-color: #53B3CB;
 }

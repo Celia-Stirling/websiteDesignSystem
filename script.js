@@ -148,45 +148,44 @@ function hideSourceCodePro() {
 sourceCodePro.addEventListener("mouseover", showSourceCodePro);
 sourceCodePro.addEventListener("mouseout", hideSourceCodePro);
 
-        /**Luckiest Guy
+        /**Luckiest Guy**/
 
-var verdana = document.getElementById("verdana");
-var verdanaP = document.getElementById("verdana-p");
+var luckiestGuy = document.getElementById("luckiest-guy");
+var luckiestGuyP = document.getElementById("luckiest-guy-p");
                 
-function showVerdana() {
-    verdanaP.innerHTML = "Verdana";
-    verdanaP.style.fontSize = "60px";
-    verdanaP.style.margin = "auto";
-    verdana.style.backgroundColor = "pink";
-};
-                
-function hideVerdana() {
-    verdanaP.innerHTML = "Life isn't finding shelter in the storm. It's about learning to dance in the rain.";
-    verdanaP.style.fontSize = "20px";
-    verdana.style.backgroundColor = "white";
+function showLuckiestGuy() {
+    luckiestGuyP.innerHTML = "Luckiest Guy";
+    luckiestGuyP.style.fontSize = "60px";
+    luckiestGuyP.style.margin = "auto";
+    luckiestGuy.style.backgroundColor = "pink";
 };
                 
-verdana.addEventListener("mouseover", showVerdana);
-verdana.addEventListener("mouseout", hideVerdana);
+function hideLuckiestGuy() {
+    luckiestGuyP.innerHTML = "Life isn't finding shelter in the storm. It's about learning to dance in the rain.";
+    luckiestGuyP.style.fontSize = "20px";
+    luckiestGuy.style.backgroundColor = "white";
+};
+                
+luckiestGuy.addEventListener("mouseover", showLuckiestGuy);
+luckiestGuy.addEventListener("mouseout", hideLuckiestGuy);
         
-         /**Gloria Hallelujah
-/*
-var verdana = document.getElementById("verdana");
-var verdanaP = document.getElementById("verdana-p");
+         /**Gloria Hallelujah**/
+
+var gloriaHallelujah = document.getElementById("gloria-hallelujah");
+var gloriaHallelujahP = document.getElementById("gloria-hallelujah-p");
         
-function showVerdana() {
-    verdanaP.innerHTML = "Verdana";
-    verdanaP.style.fontSize = "60px";
-    verdanaP.style.margin = "auto";
-    verdana.style.backgroundColor = "pink";
+function showGloriaHallelujah() {
+    gloriaHallelujahP.innerHTML = "Gloria Hallelujah";
+    gloriaHallelujahP.style.fontSize = "45px";
+    gloriaHallelujahP.style.margin = "auto";
+    gloriaHallelujah.style.backgroundColor = "pink";
 };
         
-function hideVerdana() {
-    verdanaP.innerHTML = "Life isn't finding shelter in the storm. It's about learning to dance in the rain.";
-    verdanaP.style.fontSize = "20px";
-    verdana.style.backgroundColor = "white";
+function hideGloriaHallelujah() {
+    gloriaHallelujahP.innerHTML = "Life isn't finding shelter in the storm. It's about learning to dance in the rain.";
+    gloriaHallelujahP.style.fontSize = "20px";
+    gloriaHallelujah.style.backgroundColor = "white";
 };
         
-verdana.addEventListener("mouseover", showVerdana);
-verdana.addEventListener("mouseout", hideVerdana);
-*/
+gloriaHallelujah.addEventListener("mouseover", showGloriaHallelujah);
+gloriaHallelujah.addEventListener("mouseout", hideGloriaHallelujah);
