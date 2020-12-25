@@ -120,6 +120,10 @@ p {
   background-color: white;
 }
 
+footer {
+  height: 50px;
+}
+
 /****** Font Section *********/
 
 #lobster {
@@ -166,4 +170,28 @@ p {
 
 #maximum-blue {
   background-color: #53B3CB;
+}
+
+#minion-yellow {
+  background-color: #FFE74C;
+}
+
+#antique-ruby {
+  background-color: #93032E;
+}
+
+#tumbleweed {
+  background-color: #E09F7D;
+}
+
+#baby-pink {
+  background-color: #EEC6CA;
+}
+
+#granny-smith-apple {
+  background-color: #BDE4A7;
+}
+
+#cherry-blossom-pink {
+  background-color: #FFB7C3;
 }
