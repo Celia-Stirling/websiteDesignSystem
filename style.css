@@ -158,6 +158,14 @@ footer {
   font-family: "gloria hallelujah"
 }
 
+.font-box-active {
+  background-color: pink;
+}
+
+.font-active {
+  font-size: 45px;
+}
+
 /*********Colour Section********/
 
 #dark-orange {
